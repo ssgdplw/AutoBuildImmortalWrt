@@ -31,7 +31,7 @@ PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES luci-theme-argon_2.4.2-20250207_all.ipk"
+PACKAGES="$PACKAGES luci-theme-argon"
 
 
 # 构建镜像
