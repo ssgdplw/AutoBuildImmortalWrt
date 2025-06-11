@@ -3,10 +3,6 @@
 # 设置默认防火墙规则，方便虚拟机首次访问 WebUI
 uci set firewall.@zone[1].input='ACCEPT'
 
-# 设置主机名映射，解决安卓原生 TV 无法联网的问题
-uci add dhcp domain
-uci set "dhcp.@domain[-1].name=time.android.com"
-uci set "dhcp.@domain[-1].ip=203.107.6.88"
 
 # 检查配置文件是否存在
 SETTINGS_FILE="/etc/config/pppoe-settings"
